@@ -1,0 +1,69 @@
+/* General styling */
+/* body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  } */
+  
+  /* meetgel container */
+  .meetgel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f7f2ea;
+    padding-left: 70px;
+  padding-right: 70px;
+  }
+  
+  /* Text Content */
+  .meetgel-content {
+    max-width: 500px;
+  }
+  
+  .meetgel-content h3 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .meetgel-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .meetgel-content p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #333;
+  }
+  
+  /* Image Section */
+  .meetgel-image {
+    max-width: 50%;
+  }
+  
+  .meetgel-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  @media only screen and (max-width: 768px) {
+    .meetgel-container{
+      display: none;
+    }
+  }

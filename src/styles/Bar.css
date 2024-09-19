@@ -1,0 +1,30 @@
+.bardiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAF6EF;
+    height: 30vh;
+    padding-left: 70px;
+  padding-right: 70px;
+
+}
+.bartxt{
+    /* width: 30%; */
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-block-end: 0em !important;
+    margin-block-start: 0em !important;
+    text-align: center;
+}
+.barinmid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+@media only screen and (max-width: 768px) {
+    .bardiv{
+      display: none;
+    }
+  }
