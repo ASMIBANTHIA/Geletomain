@@ -4,8 +4,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
+ 
   background-color: #fff;
   height: 80vh;
   padding-left: 70px;
@@ -21,7 +20,8 @@
 }
 
 .hero-text h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  font-family: 'GelatoSans-Regular', sans-serif;
 }
 .herosecondtxt {
   font-weight: 600;
@@ -29,11 +29,13 @@
   color: #000;
   margin-block-start: 0em !important;
   margin-block-end: 0em !important;
+  font-family: 'GelatoSans-Regular', sans-serif;
 }
 
 .subtext {
   font-size: 1rem;
   color: #000;
+  font-family: 'GelatoSans-Regular', sans-serif;
 }
 
 .hero-buttons {
@@ -163,7 +165,7 @@
   
   
 .hero-text h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 .herosecondtxt {
   
@@ -184,25 +186,37 @@
     padding-left: 50px;
     padding-right: 50px;
   }
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+  .hero-buttons
+  {
+    flex-direction: column;
+  }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 425px) {
   .hero-container {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .hero-text h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .herosecondtxt {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .subtext {
     font-size: 0.9rem;
   }
-  .cta-button {
+  /* .cta-button {
     padding: 3px 10px;
   }
   .secondary-button {
-    padding: 3px 10px;
+    padding: 10px 20px;
+  } */
+}
+@media only screen and (max-width: 375px) {
+  .hero-text h1 {
+    font-size: 1.4rem !important;
   }
 }

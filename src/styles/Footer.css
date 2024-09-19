@@ -2,7 +2,9 @@
 .footer-container {
     background-color: #000;
     color: #fff;
-    padding: 40px 20px;
+    padding: 20px;
+    padding-left:70px;
+    padding-right: 70px;
     font-family: Arial, sans-serif;
   }
   
@@ -98,8 +100,76 @@
     margin: 0;
     color: #ccc;
   }
-  
+  .eng{
+    border:1px solid white;
+    padding: 10px;
+  }
+  .footgel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .gelfoottwo{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 20px;
+  }
+  .gellogo {
+    width: 100px;
+    height: 30px;
+    /* margin-right: 20px; */
+  }
+  .soc{
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  .app-links{
+    margin-top: 20px;
+  }
+  .gelfoottwoabc{
+    display: none;
+  }
+  .bbc{
+    display: none;
+  }
   /* Responsive Design */
+  @media (max-width: 1000px) {
+.footer-links{
+  display: none;
+}
+.gelfoottwoabc{
+  display: block;
+}
+.gelfoottwo{
+  display: none;
+}
+.bbc{
+  display: block;
+}
+.bbch3{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.socone{
+  width: 20px;
+    height: 20px;
+}
+.socialfoot{
+  display: flex;
+  justify-content: space-between;
+}
+.soc{
+  width: 40px;
+  height: 40px;
+}
+.fidgel{
+  font-size: 1.1rem;
+}
+  }
   @media (max-width: 768px) {
     .footer-top {
       flex-direction: column;
@@ -131,6 +201,10 @@
   }
   
   @media (max-width: 480px) {
+    .footer-container{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
     .footer-section h2 {
       font-size: 1.2rem;
     }
@@ -138,9 +212,16 @@
     .footer-column h3 {
       font-size: 1rem;
     }
-  
+    .soc{
+      width: 40px;
+      height: 40px;
+    }
     .footer-button {
       padding: 8px 16px;
+    }
+    .socialfoot
+    {
+      display: block;
     }
   }
   

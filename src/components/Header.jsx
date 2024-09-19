@@ -82,9 +82,32 @@ const Header = () => {
         <div className="header-right">
             {isMenuOpen && (
               <div className="mobile-menu">
+                <div className='mnubtn'>
                 <button className="close-button" onClick={toggleMenu}>
                   <Icon icon="mdi:close" className="close-icon" />
                 </button>
+                <button className='contactheader lidrop '  onMouseEnter={() => toggleDropdown('INR')} onMouseLeave={() => toggleDropdown(null)}>
+        <Icon icon='material-symbols:globe' className="globe-icon" />
+        <p className='boldheader'>IN/INR</p>
+        <Icon icon="mdi:chevron-down" className="dropdown-icon" />
+              {activeDropdown === 'INR' && (
+                <div className="inrdropdown">
+                  <a href="#product1">INR 1</a>
+                  <a href="#product2">INR 2</a>
+                  <a href="#product3">INR 3</a>
+                </div>)}
+          </button>
+        <button className='contactheader '>
+        <Icon icon="mdi:cart-outline" className="globe-icon"  />
+        <p className='boldheader'>Cart</p>
+        </button>
+        </div>
+        <div className='mnubtn'>
+        <button className="cta-button ">Sign up for free</button>
+        <button className='contactheader '>
+        <Icon icon="iconamoon:profile-fill" className="globe-icon"  />
+        <p className='boldheader'>Sign in</p></button>
+        </div>
                 <div className="secondheader">
                   <nav>
                     <ul>

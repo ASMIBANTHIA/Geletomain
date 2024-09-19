@@ -2,6 +2,7 @@
 import React from "react";
 import "../styles/HeroSection.css";
 import teeimg from "../images/herofirst.webp";
+import teeimg2 from "../images/gelhidone.webp";
 import shopifymon from "../images/shopify_monotone_black.svg";
 import Accelerate from "./Accelerate";
 import ElevateGeleto from "./ElevateGeleto";
@@ -15,7 +16,7 @@ const Hero = () => {
     <>
       <div className="hero-container">
       <div className="herofirst">
-          <img src={teeimg} alt="Tshirt" className="product-img heroimgfirst" />
+          <img src={teeimg2} alt="Tshirt" className="product-img heroimgfirst" />
         </div>
         <div className="hero-text">
           <div>
@@ -53,13 +54,7 @@ const Hero = () => {
           <img src={teeimg} alt="Tshirt" className="product-img heroimgfirst" />
         </div>
       </div>
-      <div>
-        <Bar/>
-        <InfoSection />
-        <Accelerate />
-        <ElevateGeleto />
-        <MeetGeleto />
-      </div>
+      
     </>
   );
 };

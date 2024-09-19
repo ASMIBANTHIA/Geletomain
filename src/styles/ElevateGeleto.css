@@ -18,6 +18,7 @@
   /* Text Content */
   .elev-content {
     max-width: 500px;
+    padding-left: 20px;
   }
   
   .elev-content h3 {
@@ -62,11 +63,24 @@
     height: auto;
     /* border-radius: 8px; */
   }
+  @media only screen and (max-width: 1200px) {
+    .elev-container{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .elev-container h1 {
+        font-size: 2.2rem;
+    }
+}
   @media only screen and (max-width: 768px) {
    
     .elev-container {
       display: flex;
       flex-direction: column;
+      padding-left: 120px;
+      padding-right: 120px;
     }
     .elev-image {
       max-width: 100%;
@@ -78,4 +92,32 @@
       height: auto;
     }
   }
+  @media only screen and (max-width: 550px) {
+    .elev-container {
+      
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .elev-container h1 {
+      font-size: 1.8rem;
+  }
   
+  }
+  @media only screen and (max-width: 425px) {
+    .elev-container {
+      
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .elev-container h1{
+      font-size: 1.6rem;
+    }
+    .cta-button{
+      font-size: 0.8rem;
+     }
+  }
+  @media only screen and (max-width: 375px) {
+    .elev-container h1 {
+      font-size: 1.4rem !important;
+    }
+  }

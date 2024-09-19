@@ -255,6 +255,10 @@
   display: flex;
   gap: 15px;
 }
+.mnubtn{
+  display: flex;
+  justify-content: space-evenly;
+}
 @media (max-width: 992px) {
 .notdisplay{
   display: none;
@@ -262,6 +266,11 @@
 
 }
 @media (max-width: 768px) {
+  .main-headerone {
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
   .secondheader {
     display: none;
   }
@@ -281,5 +290,28 @@
   .menu-button
   {
     display: block;
+  }
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .main-headerone {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 5vh;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
   }
 }

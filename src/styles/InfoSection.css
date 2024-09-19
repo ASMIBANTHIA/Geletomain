@@ -1,4 +1,5 @@
 /* General styles */
+@import url("https://fonts.googleapis.com/css2?family=Gelato+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
 .chooseone{
   padding: 10px;
 }
@@ -81,23 +82,71 @@
     margin-block-start: 0em !important;
     margin-block-end: 0em !important;
   }
+  .infohtag{
+    font-size: 3.75rem;
+    font-family: 'GelatoSans-Regular', sans-serif !important;
+  }
+  @media only screen and (max-width: 1200px) {
+    .info-container{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .infohtag{
+      font-size: 2.2rem;
+      font-family: 'GelatoSans-Regular', sans-serif !important;
+    }
+  }
   @media only screen and (max-width: 768px) {
     .info-container{
       flex-direction: column;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 120px;
+    padding-right: 120px;
       /* padding: 10px; */
+    }
+    .info-content
+    {
+      width: 100%;
     }
     .infohtag{
       font-size: 2rem;
+      font-family: 'GelatoSans-Regular', sans-serif !important;
     }
+  }
+  @media only screen and (max-width: 550px){
+    .info-container{
+      
+      padding-left: 50px;
+    padding-right: 50px;
+    }
+    .infohtag {
+      font-size: 1.8rem;
+  }
   }
   @media only screen and (max-width: 425px){
     .info-container{
      
-      /* padding: 10px; */
+      padding-left: 30px;
+    padding-right: 30px;
     }
     .infohtag{
-      font-size: 1.3rem;
+      font-size: 1.6rem;
+    }
+    .choosegeleto{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .worldcommon
+    {
+      font-size: 1.2rem;
+    }
+    .infoparadata{
+      font-size: 0.9rem;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .infohtag {
+      font-size: 1.4rem !important;
     }
   }
