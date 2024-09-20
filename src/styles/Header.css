@@ -226,7 +226,7 @@
   gap: 5px;
   color: black;
   padding: 0px 20px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   
 }
 
@@ -268,11 +268,11 @@
  display: flex;
  align-items: center;
  gap: 5px;
- padding: 10px;
+ /* padding: 10px; */
 }
-.peaksecondheader ul li:hover{
+/* .peaksecondheader ul li:hover{
   background-color: rgba(128, 128, 128,0.1);
-}
+} */
 
 .header-mid{
   display: flex;
@@ -350,6 +350,6 @@
   } */
   .contactheader
   {
-    padding: 0px 10px !important;
+    /* padding: 0px 10px !important; */
   }
 }
