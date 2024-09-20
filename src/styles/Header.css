@@ -336,10 +336,12 @@
   .main-headerone {
     padding-left: 10px;
     padding-right: 10px;
-    height: 5vh;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
+    height: 2vh;
+    /* justify-content: space-between !important; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* display: block; */
 
   }
   
@@ -348,8 +350,8 @@
     justify-content: space-between !important;
     display: flex;
   } */
-  .contactheader
+  /* .contactheader
   {
-    /* padding: 0px 10px !important; */
-  }
+    padding: 0px 10px !important;
+  } */
 }
