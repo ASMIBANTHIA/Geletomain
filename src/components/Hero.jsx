@@ -4,12 +4,7 @@ import "../styles/HeroSection.css";
 import teeimg from "../images/herofirst.webp";
 import teeimg2 from "../images/gelhidone.webp";
 import shopifymon from "../images/shopify_monotone_black.svg";
-import Accelerate from "./Accelerate";
-import ElevateGeleto from "./ElevateGeleto";
-import MeetGeleto from "./MeetGeleto";
-import InfoSection from "./InfoSection";
 import star from "../images/star.svg";
-import Bar from "./Bar";
 
 const Hero = () => {
   return (
@@ -25,17 +20,17 @@ const Hero = () => {
             </h1>
           </div>
           <div>
-            <p className="herosecondtxt">
+            <p className="herosecondtxt fontmain">
               Sign up for free and only pay for what you sell
             </p>
-            <p className="subtext">
+            <p className="subtext fontmain">
               Turn your passion into profit with the world's largest print on
               demand network.
             </p>
           </div>
           <div className="hero-buttons">
-            <button className="cta-button">Get started for free</button>
-            <button className="secondary-button">See our products</button>
+            <button className="cta-button fontmain">Get started for free</button>
+            <button className="secondary-button fontmain">See our products</button>
           </div>
           <div className="shopify-rating">
             <img src={shopifymon} alt="Shopify logo" className="shopify-logo" />
@@ -45,9 +40,9 @@ const Hero = () => {
               <img src={star} alt="star" className="starrate" />
               <img src={star} alt="star" className="starrate" />
               <img src={star} alt="star" className="starrate" />
-              <p className="actualrate">4.8 / 5</p>
+              <p className="actualrate fontmain">4.8 / 5</p>
             </div>
-            <p className="reviewp">based on 910 reviews</p>
+            <p className="reviewp fontmain">based on 910 reviews</p>
           </div>
         </div>
         <div className="hero-images">

@@ -6,13 +6,13 @@ import gellogo from "../images/whitegel.svg";
 import { Icon } from "@iconify/react";
 const Footer = () => {
   return (
-    <footer className="footer-container">
+    <footer className="footer-container ">
       <div className="footgel">
         <div>
           <img src={gellogo} alt="Gelato" className="gellogo" />
         </div>
         <div className="gelfoottwo">
-          <p>Find Geleto On:</p>
+          <p className="fontmain">Find Geleto On:</p>
           <div className="socialfoot">
             <Icon icon="lets-icons:insta" className=" soc" />
             <Icon icon="ic:baseline-facebook" className=" soc" />
@@ -24,29 +24,29 @@ const Footer = () => {
       </div>
       <div className="footer-top">
         <div className="footer-section">
-          <p>
+          <p className="fontmain">
             Gelato has created the world's largest network for local production
             and distribution of customized products. Together we bring
             creativity to life - and into business.
           </p>
-          <button className="footer-button">Get started</button>
+          <button className="footer-button fontmain">Get started</button>
           <div className="footer-column bbc">
-            <h3 className="bbch3">
+            <h3 className="bbch3 fontmain">
               {" "}
               <Icon icon="weui:arrow-filled" className=" socone" /> Print on
               demand
             </h3>
-            <h3 className="bbch3">
+            <h3 className="bbch3 fontmain">
               {" "}
               <Icon icon="weui:arrow-filled" className=" socone" />
               Integrations
             </h3>
-            <h3 className="bbch3">
+            <h3 className="bbch3 fontmain">
               {" "}
               <Icon icon="weui:arrow-filled" className=" socone" />
               Start selling
             </h3>
-            <h3 className="bbch3">
+            <h3 className="bbch3 fontmain">
               {" "}
               <Icon icon="weui:arrow-filled" className=" socone" />
               Company
@@ -60,8 +60,8 @@ const Footer = () => {
         <div></div>
         <div className="footer-links">
           <div className="footer-column">
-            <h3>Print on demand</h3>
-            <ul>
+            <h3 className="fontmain">Print on demand</h3>
+            <ul className="fontmain">
               <li>What is print on demand?</li>
               <li>Product catalog</li>
               <li>Shipping and delivery</li>
@@ -75,8 +75,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-column">
-            <h3>Integrations</h3>
-            <ul>
+            <h3 className="fontmain">Integrations</h3>
+            <ul className="fontmain">
               <li>Shopify</li>
               <li>Etsy</li>
               <li>WooCommerce</li>
@@ -87,8 +87,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-column">
-            <h3>Start selling</h3>
-            <ul>
+            <h3 className="fontmain">Start selling</h3>
+            <ul className="fontmain">
               <li>Embroidery</li>
               <li>Print on demand t-shirts</li>
               <li>Print on demand hoodies</li>
@@ -100,8 +100,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-column">
-            <h3>Company</h3>
-            <ul>
+            <h3 className="fontmain">Company</h3>
+            <ul className="fontmain">
               <li>GelatoConnect</li>
               <li>About Gelato</li>
               <li>Leadership team</li>
@@ -117,7 +117,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="gelfoottwoabc">
-        <p className="fidgel">Find Geleto On:</p>
+        <p className="fidgel fontmain">Find Geleto On:</p>
         <div className="socialfoot">
           <Icon icon="lets-icons:insta" className=" soc" />
           <Icon icon="ic:baseline-facebook" className=" soc" />
@@ -128,13 +128,13 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <div className="footer-bottom-links">
-          <p>
+          <p className="fontmain">
             Contact us | Legal | Privacy policy | Cookie policy | API terms |
             Sitemap
           </p>
           
         </div>
-        <p className="eng">English (India)</p>
+        <p className="eng fontmain">English (India)</p>
       </div>
     </footer>
   );

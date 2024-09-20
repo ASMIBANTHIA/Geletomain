@@ -9,10 +9,10 @@ const ElevateGeleto = () => {
         <img src={gifImage} alt="Promotional GIF" />
       </div>
       <div className="elev-content">
-        <h3>GelatoConnect</h3>
-        <h1>Elevate efficiency, cut costs, and seamlessly automate with our all-in-one software solution for the print industry</h1>
+        <h3 className='fontmain'>GelatoConnect</h3>
+        <h1 className='fontmain'>Elevate efficiency, cut costs, and seamlessly automate with our all-in-one software solution for the print industry</h1>
         {/* <p>See how our cutting-edge solutions can help you reach new customers and maximize your profits.</p> */}
-        <button className="cta-button">Learn More</button>
+        <button className="cta-button fontmain">Learn More</button>
       </div>
     </div>
   );

@@ -4,6 +4,9 @@
   text-align: center;
   font-size: 14px;
   color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
 .top-header a {
@@ -97,7 +100,7 @@
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  padding: 20px;
+  padding: 0px !important;
 }
 
 .mobile-menu .close-button {
@@ -112,6 +115,7 @@
   flex-direction: column;
   /* align-items: center; */
   padding: 20px;
+  /* padding-right: 60px; */
 }
 
 .mobile-menu .secondheader ul {
@@ -174,10 +178,11 @@
 .inrdropdown {
   position: absolute;
   top: 100%;
-  right: 0;
+  left: 0;
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 10px;
+  width: 200px;
   display: none;
 }
 .peakdropdown a{
@@ -219,17 +224,31 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
+  color: black;
+  padding: 0px 20px;
+  border-radius: 20px;
+  
+}
+
+.contactmob{
+  border-right: 2px solid rgba(128, 128, 128,0.5);
+}
+.contactmobone{
+  border-left:2px solid rgba(128, 128, 128,0.5); ;
 }
 .boldheader{
   font-weight: 600;
   font-size:small;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 /* .contactheader:hover {
   background-color: #444;
 } */
  .peaksecondheader
  {
-  border-bottom: 1px solid rgba(128, 128, 128,0.6);
+  border-bottom: 1px solid rgba(128, 128, 128,0.5);
   height: 10vh;
   display: flex;
   /* justify-content: center; */
@@ -249,6 +268,10 @@
  display: flex;
  align-items: center;
  gap: 5px;
+ padding: 10px;
+}
+.peaksecondheader ul li:hover{
+  background-color: rgba(128, 128, 128,0.1);
 }
 
 .header-mid{
@@ -258,6 +281,9 @@
 .mnubtn{
   display: flex;
   justify-content: space-evenly;
+  border-bottom: 2px solid rgba(128, 128, 128,0.5);
+  padding: 10px;
+
 }
 @media (max-width: 992px) {
 .notdisplay{
@@ -276,6 +302,7 @@
   }
   .mobile-menu {
     display: block;
+    
   }
   .notdisplay2 {
     display: none;
@@ -313,5 +340,16 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
+
+  }
+  
+  /* .firstheader
+  {
+    justify-content: space-between !important;
+    display: flex;
+  } */
+  .contactheader
+  {
+    padding: 0px 10px !important;
   }
 }

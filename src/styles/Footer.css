@@ -1,4 +1,9 @@
 /* General Footer Styling */
+.fontmain{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
 .footer-container {
     background-color: #000;
     color: #fff;
@@ -36,6 +41,7 @@
     border: none;
     cursor: pointer;
     font-weight: bold;
+    border-radius: 20px;
   }
   
   .footer-button:hover {
