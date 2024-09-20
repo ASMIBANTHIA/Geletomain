@@ -268,11 +268,11 @@
  display: flex;
  align-items: center;
  gap: 5px;
- /* padding: 10px; */
+ padding: 10px;
 }
-/* .peaksecondheader ul li:hover{
+.peaksecondheader ul li:hover{
   background-color: rgba(128, 128, 128,0.1);
-} */
+}
 
 .header-mid{
   display: flex;
