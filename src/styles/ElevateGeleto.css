@@ -23,7 +23,7 @@
   /* Text Content */
   .elev-content {
     max-width: 500px;
-    padding-left: 20px;
+    padding-left: 20px !important;
   }
   
   .elev-content h3 {
@@ -73,11 +73,16 @@
       padding-left: 50px;
       padding-right: 50px;
     }
+    .elev-content {
+      max-width: 500px;
+      padding-left: 20px !important;
+    }
   }
   @media only screen and (max-width: 992px) {
     .elev-container h1 {
         font-size: 2.2rem;
     }
+    
 }
   @media only screen and (max-width: 768px) {
    
@@ -96,6 +101,10 @@
       width: 80%;
       height: auto;
     }
+    .elev-content{
+      padding-left: 0px !important;
+      max-width: auto !important;
+     }
   }
   @media only screen and (max-width: 550px) {
     .elev-container {
@@ -106,6 +115,7 @@
     .elev-container h1 {
       font-size: 1.8rem;
   }
+  
   
   }
   @media only screen and (max-width: 425px) {
@@ -120,6 +130,7 @@
     .cta-button{
       font-size: 0.8rem;
      }
+     
   }
   @media only screen and (max-width: 375px) {
     .elev-container h1 {
