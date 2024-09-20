@@ -119,6 +119,10 @@
       font-size: 2rem;
       font-family: 'GelatoSans-Regular', sans-serif !important;
     }
+    .info-image {
+      width: 80%;
+      /* padding-right: 20px; */
+    }
   }
   @media only screen and (max-width: 550px){
     .info-container{
